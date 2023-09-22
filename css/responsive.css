@@ -1,0 +1,269 @@
+@media screen and (max-width:1440px) {
+    .logo{
+        margin-top: 30px!important;
+        width: 210px;
+        height: 100%;
+    }
+    h1{
+        font-size: 65px;
+        padding-top: 15px;
+    }
+    p{
+        font-size: 20px;
+        width: 520px;
+    padding-top: 15px;
+    }
+    .cube-pink {
+        top: 160px;
+        right: 121px;
+        width: 260px;
+        height: 240px;
+    }
+    .cube-orange {
+        top: 220px;
+        left: 50px;
+        width: 220px;
+        height: 200px;
+    }
+    .cross-line-green {
+        height: 40px;
+        bottom: 14%;
+    }
+    .cross-line-pink {
+        height: 40px;
+        bottom: 10%;
+    }
+    .button-container {
+        gap: 15px;
+    }
+    button{
+        width: 150px;
+    }
+    .email input {
+        width: 380px;
+    }
+    .cb-tagreel-item {
+        font-size: 23px;
+        line-height: 42px;
+    }
+    
+}
+@media screen and (max-width:1200px){
+    h1 {
+        font-size: 57px;
+    }
+    p {
+        font-size: 18px;
+        width: 465px;
+        line-height: 28px;
+    }
+    .cross-line-green {
+        bottom: 9%;
+    }
+    .cross-line-pink {
+        bottom: 7%;
+    }
+    .email input {
+        width: 350px;
+    }
+    button {
+        width: 130px;
+    }
+    .cube-pink {
+        top: 204px;
+        right: 48px;
+        width: 230px;
+        height: 205px;
+    }
+    .cube-orange {
+        top: 265px;
+        left: 35px;
+        width: 195px;
+        height: 180px;
+    }
+}
+@media screen and (max-width:991px){
+    *{
+        overflow: hidden;
+    }
+    .button-container {
+        gap: 15px;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .cube-pink {
+        top: 248px;
+        right: 14px;
+        width: 185px;
+        height: 170px;
+    }
+    .cube-orange {
+        top: 290px;
+        left: 29px;
+        width: 160px;
+        height: 145px;
+    }
+    .cross-line-green {
+        height: 35px;
+        bottom: 8%;
+    }
+    .cross-line-pink {
+        height: 35px;
+        bottom: 6%;
+    }
+    .button-container {
+        gap: 25px;
+        padding-top: 30px;
+    }
+    button {
+        width: 150px;
+    }
+    .cb-tagreel-item{
+        font-size: 21px;
+        line-height: 36px;
+    }
+}
+/* @media screen and (min-width:651px),(max-width:900px){
+    .cube-orange {
+        top: 436px;
+    }
+    
+} */
+@media screen and (max-width:650px){
+    *{
+       overflow-y: hidden;
+    }
+    body{
+        height: 100vh;
+    }
+    .logo {
+        width: 135px;
+        margin-top: 40px;
+    }
+    h1 {
+        font-size: 47px;
+        padding: 25px 10px 0px;
+    }
+    .content {
+        padding: 0px 15px;
+    }
+    p{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .email input {
+        width: 310px;
+        font-size: 15px;
+        padding-left: 15px;
+        height: 50px;
+        background: transparent;
+    }
+    button{
+        width: 310px;
+        height: 50px;
+    }
+    .button-container {
+        padding-top: 65px;
+    }
+    .cube-pink {
+        top: 210px;
+        right: 14px;
+        width: 128px;
+        height: 116px;
+    }
+  
+     .cube-orange {
+        top: 420px;
+        left: 20px;
+        width: 110px;
+        height: 96px;
+        z-index: 999;
+    } 
+    .cross-line-green {
+        height: 30px;
+        bottom: 14%;
+        transform: rotate(-6deg);
+    }
+    .cross-line-pink {
+        height: 30px;
+        bottom: 10%;
+        transform: rotate(7deg);
+}
+.cb-tagreel-item{
+    flex: 20 0 25%;
+    font-size: 14px;
+    line-height: 30px;
+}
+    }
+   
+    /* @media screen and (min-width:560px),(max-width:650px){
+        .cube-orange {
+            top: 436px;
+        }
+    } */
+@media screen and (max-width:550px){
+    *{
+        overflow: hidden;
+    }
+    body{
+        height: 100vh;
+    }
+    .logo {
+        width: 135px;
+        margin-top: 40px;
+    }
+    h1 {
+        font-size: 38px;
+        padding: 8px 10px 0px;
+    }
+    .content {
+        padding: 0px 15px;
+    }
+    p{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .email input {
+        width: 310px;
+        font-size: 15px;
+        padding-left: 15px;
+        height: 50px;
+        background: transparent;
+    }
+    button{
+        width: 310px;
+        height: 50px;
+    }
+    .button-container {
+        padding-top: 120px;
+    }
+    .cube-pink {
+        top: 210px;
+        right: 14px;
+        width: 128px;
+        height: 116px;
+    }
+  
+     .cube-orange {
+        top: 465px;
+        left: 21px;
+        width: 110px;
+        height: 96px;
+        z-index: 999;
+    } 
+    .cross-line-green {
+        height: 30px;
+        bottom: 9%;
+        transform: rotate(-7deg);
+    }
+    .cross-line-pink {
+        height: 30px;
+        bottom: 7%;
+        transform: rotate(9deg);
+}
+.cb-tagreel-item{
+    flex: 20 0 33%;
+    font-size: 14px;
+    line-height: 30px;
+}
+    }

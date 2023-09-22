@@ -1,0 +1,224 @@
+@font-face {
+    font-family:"Outfit-Regular";
+    src: url("Outfit/static/Outfit-Regular.ttf");
+}
+@font-face {
+    font-family:"Outfit-Medium";
+    src: url("Outfit/static/Outfit-Medium.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden!important;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#capetch-comingsoon{
+ width: 100%;
+ height: 100vh;
+ position: relative;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.logo{
+    width: 357px;
+    height: 162px;
+    margin-top: 65px;
+}
+h1 {
+    font-family: "Outfit-Medium";
+    font-weight: 500;
+    font-size: 120px;
+    padding-top: 25px;
+    text-align: center;
+}
+p{
+    font-family: "Outfit-Regular";
+    font-weight: 400;
+    font-size: 25px;
+    padding-top: 20px;
+    color: #A5A8AB;
+    width: 640px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 60px;
+}
+.email input{
+    font-family: "Outfit-Regular";
+    font-weight: 400;
+    font-size: 18px;
+    width: 408px;
+    height: 58px;
+    border: 1px solid #41464A;
+    border-radius: 30px;
+    color: #A5A8AB;
+    padding-left: 20px;
+    outline: none;
+}
+input:focus{
+    border: 1px solid orangered;
+    
+}
+button {
+    font-family: "Outfit-Medium";
+    font-weight: 500;
+    font-size: 16px;
+    color: #1F272D;
+    width: 170px;
+    height: 58px;
+    border: 1px solid #1F272D;
+    border-radius: 40px;
+    background: transparent;
+    cursor: pointer;
+    padding: 15px 25px;
+    z-index: 1;
+    position: relative;
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background: linear-gradient(to left,#F53580,#fb873a);
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+  
+   }
+   
+   button:hover {
+    color: #fff;
+    border: none;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+.cross-line-pink {
+    width: 100%;
+    height: 50px;
+    background: #F53580;
+     position: absolute;
+    bottom: 12%;
+    transform: rotate(3deg); 
+    overflow: hidden;
+}
+.cross-line-green {
+    width: 100%;
+    height: 50px;
+    background: #B2E24B;
+    position: absolute;
+    bottom: 15%;
+    transform: rotate(-5deg); 
+     overflow: hidden;
+} 
+.cube-orange {
+    position: absolute;
+    top: 350px;
+    z-index: 999;
+    left: 90px;
+    width: 310px;
+    height: 280px;
+   animation: cube-rev infinite 2s alternate-reverse;
+} 
+@keyframes cube-rev{
+    0%{
+        rotate: 30deg;
+    }
+    50%{
+        rotate: -45deg;
+    }
+    70%{
+        rotate: -70deg;
+      
+    }
+    90%{
+        rotate: -120deg;
+    }
+    100%{
+        rotate: -180deg;
+    }
+}
+@keyframes cube {
+    0%{
+        rotate: 0deg;
+    }
+    50%{
+        rotate: 45deg;
+        transform: translateZ(100px);
+    }
+    70%{
+        rotate: 90deg;
+    }
+    100%{
+        rotate: 180deg;
+    }
+}
+.cube-pink {
+    position: absolute;
+    top: 349px;
+    right: 229px;
+    width: 315px;
+    height: 290px;
+     animation: cube infinite 2s alternate-reverse; 
+}
+
+
+
+/* GSAP Code */
+
+.cb-tagreel-row {
+	display: flex;
+	position: relative;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.cb-tagreel-item {
+    font-family:"Outfit-Medium";
+    font-weight: 600;
+	position: relative;
+    font-size: 40px;
+    line-height: 50px;
+	flex: 0 0 20%;
+	text-transform: uppercase;
+}
+
+.cb-tagreel-item.-stroke {
+	color: transparent;
+	text-shadow: none;
+	-webkit-text-stroke: 2px rgba(0, 0, 0, 0.2);
+}
+
+.cb-tagreel-item span {
+	position: relative;
+	display: inline-block;
+	z-index: 1;
+}
+.cross-line-pink .cb-tagreel-item{
+    color: #fff;
+}
+/* 21/9 */
